@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/my_row"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="#7d7d7d">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Name"
+            android:id="@+id/name"
+
+            android:layout_alignTop="@+id/zipcode"
+            android:layout_alignParentEnd="true"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Zip Code"
+            android:id="@+id/zipcode"
+            android:textColor="#53b3cc"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/name"
+            android:layout_marginRight="10dp"/>
+</RelativeLayout>
